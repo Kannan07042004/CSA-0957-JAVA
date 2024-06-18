@@ -6,7 +6,7 @@ public class sumofn{
         int n = scanner.nextInt();
         int sum = 0;
         for (int i = 1; i <= n; ++i) {
-	    if(i%2==0)		
+	    if(i%2 == 0)	
             	sum += i;
         }
         System.out.println("Sum of first " + n + " natural numbers is: " + sum);
